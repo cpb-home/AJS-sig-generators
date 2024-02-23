@@ -21,6 +21,12 @@ const compTeam = new Team;
 compTeam[0] = dem;
 compTeam[1] = dead;
 compTeam[2] = vam;
+compTeam[3] = vam;
 
 //console.log(myTeam.next());
-console.log(...compTeam);
+//console.log(...compTeam);
+//console.log(compTeam.next());
+//console.log(compTeam.next());
+for (let char of compTeam) {
+  console.log(char);
+}
