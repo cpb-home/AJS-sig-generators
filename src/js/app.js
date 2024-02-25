@@ -25,7 +25,7 @@ compTeam[3] = vam;
 
 //console.log(myTeam.next());
 //console.log(...compTeam);
-//console.log(compTeam.next());
+//console.log(Object.keys(compTeam).length);
 //console.log(compTeam.next());
 for (let char of compTeam) {
   console.log(char);
